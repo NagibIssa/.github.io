@@ -1,0 +1,33 @@
+html {font-size: 10px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */ 
+  font-family: 'Piedra', cursive; /* este deve ser o nome da fonte que você obteve no Google Fonts */ 
+  background-color: snow;
+}
+body {
+  width: 600px; /*tamanho do corpo*/
+  margin: auto; /* tamanho da margem de fundo Sup, inf, esq, dir -  Auto faz dividir uniforme*/
+  background-color: red; /*cor de fundo do padding */
+  padding: auto; /*espaço em torno do nosso conteudo*/
+  border: 5px solid black; /*borda do padding*/
+}
+
+h1 {
+  font-size: 60px; /*tamanho da fonte*/
+  text-align: center; /*centralizar o titulo*/
+  margin: 0; /*margem*/
+  padding: 20px 0;   /**/  
+  color: black;
+  text-shadow: 3px 3px 1px white; /*sombreado do titulo*/
+}
+
+img{
+  display: block;
+  margin: 0 auto; /*"margem da imgaem"*/
+  width: 500px; /*define o tamanho do imagem*/
+}
+
+p, li, a{
+  text-align: center;
+  font-size: 30px; /*tamanho da fonte*/
+  line-height: 1; /*altura*/
+  letter-spacing: 1px;/*espaço entre as letras*/  
+}
